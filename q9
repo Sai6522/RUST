@@ -1,0 +1,10 @@
+const INTEGER_CONSTANT: i32 = 42; 
+const FLOAT_CONSTANT: f64 = 3.14; 
+const BOOLEAN_CONSTANT: bool = true; 
+const STRING_CONSTANT: &str = "Hello, Rust!"; 
+fn main() { 
+println!("Integer Constant: {}", INTEGER_CONSTANT); 
+println!("Float Constant: {}", FLOAT_CONSTANT); 
+println!("Boolean Constant: {}", BOOLEAN_CONSTANT); 
+println!("String Constant: {}", STRING_CONSTANT); 
+}
